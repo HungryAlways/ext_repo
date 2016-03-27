@@ -1,0 +1,251 @@
+#customers
+{
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  width:100%;
+  border-collapse:collapse;
+}
+
+#customers td, #customers th 
+{
+  font-size:0.8em;
+  border:1px solid #98bf21;
+  padding:3px 7px 2px 7px;
+}
+
+#customers th 
+{
+  font-size:0.8em;
+  text-align:left;
+  padding-top:5px;
+  padding-bottom:4px;
+  background-color:#A7C942;
+  color:black;
+}
+
+tr.alt 
+{
+  color:#000000;
+  background-color:#EAF2D3;
+}
+
+tr.critical
+{
+  color:#000000;
+  background-color:#Ff8057;
+}
+
+tr.tbd
+{
+  color:#000000;
+  background-color:#e9e976;
+}
+
+tr.include
+{
+  color:#000000;
+  background-color:#e9e976;
+}
+
+#customers textarea
+{
+  font-size:1.0em;
+  font-family:"Trebuchet MS";
+  border:1px solid #98bf21;
+  padding:3px 7px 2px 7px;
+}
+
+tr:hover
+{
+background-color:#66CC99;
+}
+
+tr.alt:hover
+{
+background-color:#66CC99;
+}
+
+div#basic
+{
+width:500px;
+height:350px;
+background-color:#EEEEEE;
+border:1px solid black;
+border-radius:5px;
+box-shadow: 10px 10px 5px #888888;
+text-shadow: 5px 5px 5px #FF8000;
+}
+
+div#guide
+{
+width:500px;
+height:350px;
+background-color:lightskyblue;
+border:1px solid black;
+border-radius:5px;
+box-shadow: 10px 10px 5px #888888;
+text-shadow: 5px 5px 5px #FF8000;
+float:ridge;
+}
+
+div#name {background-color:#EEEEEE;height:200px;width:250px;float:left;}
+div#value {background-color:#EEEEEE;height:200px;width:250px;float:left;}
+div#left {background-color:#EEEEEE;height:25px;width:250px;float:left;}
+div#right {background-color:#EEEEEE;height:25px;width:250px;float:left;}
+
+div#div2
+{
+transform:rotate(10deg);
+-ms-transform:rotate(10deg); /* IE 9 */
+-moz-transform:rotate(10deg); /* Firefox */
+-webkit-transform:rotate(10deg); /* Safari and Chrome */
+-o-transform:rotate(10deg); /* Opera */
+
+transition:10s;
+-o-transition:10s;
+-moz-transition:10s;
+-webkit-transition:10s;
+}
+div#div2:hover
+{
+transform:rotate(360deg);
+-ms-transform:rotate(360deg); /* IE 9 */
+-moz-transform:rotate(360deg); /* Firefox */
+-webkit-transform:rotate(360deg); /* Safari and Chrome */
+-o-transform:rotate(360deg); /* Opera */
+}
+
+#addform {
+  position: fixed;
+  background-color: #f6f6f6;
+  box-shadow: 3px 3px 3px #636363;
+  display: none;
+  width: 500px;
+  height: 350px;
+  border-radius: 20px;
+  padding: 20px;
+  left: 40%;
+  top: 30%;
+  margin-left: -100px;
+  margin-top: -100px;
+  z-index: 1000;
+  border: 1px solid #e1e1e1;
+}
+
+#info {
+  position: fixed;
+  background-color: #f6f6f6;
+  box-shadow: 3px 3px 3px #636363;
+  display: none;
+  width: 500px;
+  height: 350px;
+  border-radius: 20px;
+  padding: 20px;
+  left: 40%;
+  top: 30%;
+  margin-left: -100px;
+  margin-top: -100px;
+  z-index: 1000;
+  border: 1px solid #e1e1e1;
+}
+
+.button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 3px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #333333;
+  background-color: #f1f1f1;
+  border-color: #cccccc;
+  transition: background-color 0.5s; }
+
+.button:hover,
+.button:focus,
+.button:active,
+.button:active {
+  color: #333333;
+  background-color: #cac9cb;
+  border-color: #adadad;
+  text-decoration: none; }
+
+.button i.fa {
+  /** usefull only with font-awesome icons */
+  margin-right: 5px; }
+
+/**** Delete button ***/
+.button.delete {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a; }
+
+.button.delete:hover,
+.button.delete:focus,
+.button.delete:active,
+.button.delete.active {
+  color: #ffffff;
+  background-color: #d2322d;
+  border-color: #ac2925; }
+
+/****** Add or green button ****/
+.button.add, .button.green {
+  color: #ffffff;
+  background-color: #6ccb63;
+  border-color: #5db056; }
+
+.button.add:hover,
+.button.add:focus,
+.button.add:active,
+.button.add.active,
+.button.green:hover,
+.button.green:focus,
+.button.green:active,
+.button.green.active {
+  color: #ffffff;
+  background-color: #5aad55;
+  border-color: #5db056; }
+
+/*a  upload */
+.a-upload {
+    padding: 0px 0px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    cursor: pointer;
+    color: #888;
+    background: #00fafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+.a-upload  input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+
+.a-upload:hover {
+    color: #444;
+    background: #eee;
+    border-color: #ccc;
+    text-decoration: none
+}
